@@ -1,0 +1,4 @@
+eu/nagygsz/fraud/FraudCheckResponse.class
+eu/nagygsz/fraud/FraudCheckService.class
+eu/nagygsz/fraud/FraudController.class
+eu/nagygsz/fraud/FraudCheckHistoryRepository.class

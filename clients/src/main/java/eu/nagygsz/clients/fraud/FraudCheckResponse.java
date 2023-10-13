@@ -1,4 +1,4 @@
-package eu.nagygsz.customer;
+package eu.nagygsz.clients.fraud;
 
 public record FraudCheckResponse(Boolean isFraudster) {
 }

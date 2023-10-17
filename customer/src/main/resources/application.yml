@@ -18,6 +18,8 @@ spring:
     hibernate:
       ddl-auto: create-drop
       show-sql: 'true'
+  zipkin:
+    base-url: http://192.168.0.173:9411
 eureka:
   client:
     service-url:

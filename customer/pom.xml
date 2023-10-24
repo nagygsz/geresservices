@@ -9,11 +9,19 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <packaging>jar</packaging>
     <artifactId>customer</artifactId>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -52,6 +60,7 @@
             <groupId>eu.nagygsz</groupId>
             <artifactId>amqp</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>eu.nagygsz</groupId>
